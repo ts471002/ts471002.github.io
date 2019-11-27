@@ -2,13 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ts471002.github.io</id>
     <title>ts471002</title>
-    <updated>2019-11-27T16:10:39.534Z</updated>
+    <updated>2019-11-27T16:12:35.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ts471002.github.io"/>
     <link rel="self" href="https://ts471002.github.io/atom.xml"/>
     <logo>https://ts471002.github.io/images/avatar.png</logo>
     <icon>https://ts471002.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, ts471002</rights>
+    <entry>
+        <title type="html"><![CDATA[虚拟机的IOS开发]]></title>
+        <id>https://ts471002.github.io/post/xu-ni-ji-de-ios-kai-fa</id>
+        <link href="https://ts471002.github.io/post/xu-ni-ji-de-ios-kai-fa">
+        </link>
+        <updated>2019-11-27T16:06:23.000Z</updated>
+        <content type="html"><![CDATA[<p>[TOC]</p>
+<h2 id="一-提前准备">一、提前准备</h2>
+<h3 id="1安装vmware">1.安装VMWare</h3>
+<h3 id="2下载unlocker">2.下载unlocker</h3>
+<p>https://github.com/DrDonk/unlocker</p>
+<h3 id="3下载macos最好为最新版否则可能无法安装一些软件">3.下载macOS（最好为最新版，否则可能无法安装一些软件）</h3>
+<h3 id="二-环境配置">二、环境配置</h3>
+<h3 id="1关闭vmware服务">1.关闭VMware服务</h3>
+<p><img src="https://ts471002.github.io/post-images/1574870896220.png" alt=""></p>
+<h3 id="2安装unlocker">2.安装unlocker</h3>
+<p><img src="https://ts471002.github.io/post-images/1574870930118.png" alt=""></p>
+<h3 id="3创建虚拟机">3.创建虚拟机</h3>
+<p>一路配置+下一步</p>
+<p><img src="https://ts471002.github.io/post-images/1574870945694.png" alt=""></p>
+<p><img src="https://ts471002.github.io/post-images/1574870961567.png" alt=""></p>
+<p>点击完成。</p>
+<p>打开虚拟机目录，修改图中所选文件<img src="https://ts471002.github.io/post-images/1574870977572.png" alt=""></p>
+<p>在smc.present=&quot;TRUE&quot;后添加smc.version=&quot;0&quot;<img src="https://ts471002.github.io/post-images/1574870996769.png" alt=""></p>
+<h3 id="4安装macos">4.安装macOS</h3>
+<p>在服务中打开与VMware相关的五个服务，开启虚拟机，安装macOS系统。</p>
+<p>一路下一步，直到提示没有足够可用空间进行安装，点击屏幕上方的 “实用工具 -&gt; 磁盘工具”。选中 “ vmware workstation SATA hard drive media ”，点击 “抹掉”。退出，选择出现的分区继续进行安装。安装后开机发现屏幕分辨率等存在问题。</p>
+<p>解决：在左侧我的计算机中右键虚拟机点击安装VMware Tools，安装成功后重启，macOS就安装完成。</p>
+<h3 id="5开发">5.开发</h3>
+<p>在App Store安装XCODE，开发环境搭建完成</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windows上的IOS开发]]></title>
         <id>https://ts471002.github.io/post/windows-shang-de-ios-kai-fa</id>
